@@ -1,0 +1,141 @@
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  border: 1px solid white;
+  text-align: center;
+}
+
+hr {
+  color: white;
+}
+
+div {
+  border: 1px solid white;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  list-style-position: inside;
+  border: 1px solid white;
+}
+
+li {
+  border: 1px dotted white;
+  text-align: center;
+}
+
+body {
+  position: relative;
+  background-color: grey;
+  color: white;
+  font-family: 'Silom';
+  align: center;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+
+
+/* Universal Styles */
+.container {
+  margin: 0 auto;
+  padding-top: 15px;
+  max-width: 640px;
+  width: 94%;
+  border: 1px solid green;
+}
+
+.header1 {
+  font-size: 30pt;
+  text-align: center;
+  position: relative;
+  margin: 0 auto 0 auto;
+}
+
+.navBar {
+  position: relative;
+  width: 95%;
+  margin: 10px auto 10px auto;
+  text-align: center;
+}
+
+/*.navBar {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  width: 95%;
+  margin: 10px auto 10px auto;
+  text-align: center;
+}*/
+
+.navItem {
+  color: white;
+  position: relative;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.navSelectedItem {
+  color: grey;
+  position: relative;
+  padding-left: 1%;
+  padding-right: 1%;
+  pointer-events: none;
+  cursor: default;
+}
+
+
+
+/* Index Styles */
+.logoContainer {
+  position: relative;
+  margin: 10px auto 0 auto;
+  height: 200px;
+  width: 170px;
+}
+
+.codeboyLogo {
+  height: 200px;
+  width: 170px;
+  position: relative;
+}
+
+.indexHeightDiv {
+  border: 1px dotted blue;
+  position: relative;
+  width: 95%;
+  height: 100px;
+  margin: 10px auto 10px auto;
+  padding-top: 10%;
+  padding-bottom: 3%;
+}
+
+
+
+/* Contact Styles */
+.contactListContainer {
+  position: relative;
+  margin: 10px auto 40px auto;
+  width: 95%;
+
+}
+
+.contactListItem {
+  position: relative;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
