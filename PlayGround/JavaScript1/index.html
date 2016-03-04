@@ -1,0 +1,23 @@
+<html>
+
+  <head>
+    <title>JavaScript1</title>
+  </head>
+
+  <body>
+
+    <button id="demo">Click Me</button>
+
+    <script>
+      var btn = document.getElementById("demo");
+      btn.addEventListener("click", myFunction);
+
+      function myFunction() {
+        alert(Math.random());
+        btn.removeEventListener("click", myFunction);
+      }
+    </script>
+
+  </body>
+
+</html>
