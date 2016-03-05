@@ -1,0 +1,21 @@
+body {
+	background-color: grey;
+	color: white;
+}
+
+p {
+	color: white;
+}
+
+.header {
+	border: 1px solid white;
+}
+
+.main {
+	border: 1px dotted white;
+	height: 300px;
+}
+
+.title {
+	border: 1px solid blue;
+}
